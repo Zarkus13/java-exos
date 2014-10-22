@@ -3,9 +3,9 @@
  */
 public class FizzBuzz {
     public static void main(String[] args) {
-        final int max = 100;
+        final int max = 1000;
 
-        for(int i = 1 ; i <= 100 ; i++) {
+        for(int i = 1 ; i <= max ; i++) {
             if(i % 3 == 0 && i % 5 == 0)
                 System.out.print("fizzbuzz");
             else if(i % 3 == 0)
@@ -17,9 +17,8 @@ public class FizzBuzz {
 
             System.out.print(" ");
 
-            if(i % 10 == 9) {
+            if(i % 10 == 9)
                 System.out.println();
-            }
         }
     }
 }
